@@ -1,0 +1,63 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+.contact-container{
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+
+}
+.contact-title{
+    padding-top: 100px;
+}
+.contact-container .title h1{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.bg-img{
+    background-image: url('https://a.cdn-hotels.com/gdcs/production50/d1318/bec9a70d-ecae-4b9e-851d-50485d8ac751.jpg');
+    min-height: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form  {
+    text-align: center;
+    border: none;
+    padding: 0 10px;
+}
+input[type=email], input[type=text] {
+    width: 350px;
+    height: 20px;
+    padding: 30px;
+    margin: 0 10px;
+    border: none;
+}
+.message{
+    padding-top: 20px;
+    text-align: center;
+    border: none;
+}
+.message textarea{
+    border: none;
+    padding: 5px 5px;
+
+}
+
+.ctc-btn{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.ctc-btn button{
+    background-color: darkred;
+    padding: 8px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

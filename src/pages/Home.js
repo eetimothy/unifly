@@ -1,6 +1,10 @@
 import AppCarousel from '../components/Carousel/Carousel'
 import SgBanner from '../components/banners/SgBanner'
-import Search from '../components/search/Search'
+import SgTourCard from '../components/SgTourCard/SgTourCard'
+import Search from '../components/search/index' 
+import TrendingDestinations from '../components/TrendingDestinations/TrendingDestination'
+import TravelServices from '../components/TravelServices/TravelServices'
+import Contact from '../components/Contact/Contact'
 
 const Home = () => {
     return ( 
@@ -8,6 +12,10 @@ const Home = () => {
             <AppCarousel/>
             <Search/>
             <SgBanner/>
+            <SgTourCard/>
+            <TrendingDestinations/>
+            <TravelServices/>
+            <Contact/>
         </div>
      );
 }
