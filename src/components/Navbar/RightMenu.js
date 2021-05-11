@@ -1,7 +1,7 @@
-import { Menu, Icon, Grid } from 'antd'
+import { Menu, Grid } from 'antd'
 import { ShoppingCartOutlined } from '@ant-design/icons'
-const SubMenu = Menu.SubMenu
-const MenuItemGroup = Menu.ItemGroup
+// const SubMenu = Menu.SubMenu
+// const MenuItemGroup = Menu.ItemGroup
 
 
 const { useBreakpoint } = Grid;

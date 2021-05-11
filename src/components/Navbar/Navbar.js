@@ -25,7 +25,7 @@ class Navbar extends Component {
             <div className="header">
             <div className="logo" style={{float: 'left'}}>
                 <a href="/">
-                <img src="http://uftravel.com.sg/images/enlogo.png" />
+                <img src="http://uftravel.com.sg/images/enlogo.png" alt="logo" />
                 </a>
             </div>
             <div className="menuCon">

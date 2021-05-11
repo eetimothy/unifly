@@ -2,20 +2,20 @@ import image1 from '../../assets/images/sgtourcard1.png'
 import image2 from '../../assets/images/sgtourcard2.png'
 import image3 from '../../assets/images/sgtourcard3.png'
 
-import { Row, Col, Divider } from 'antd'
-import { Card, Grid } from 'antd'
+import { Row, Col } from 'antd'
+import { Card } from 'antd'
 import { LeftOutlined, RightOutlined } from '@ant-design/icons'
 
-const { Meta } = Card;
-const { useBreakpoint } = Grid;
+// const { Meta } = Card;
+// const { useBreakpoint } = Grid;
 
-const style = {
-    color: 'crimson'
-}
+// const style = {
+//     color: 'crimson'
+// }
 
 
 const SgTourCard = () => {
-    const { md } = useBreakpoint()
+    // const { md } = useBreakpoint()
     return (
         <>
             <div className="title-container">

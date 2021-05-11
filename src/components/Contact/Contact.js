@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <>
         <div className="contact-title">
-            <h1></h1>
+            
         </div>
         <div className="bg-img">
             <form className="contact-container">

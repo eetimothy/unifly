@@ -18,7 +18,7 @@ const items = [
     key: '3',
     title: 'Passion Made',
     content: 'Possible',
-  },,
+  },
 ]
 
 function AppHero() {
@@ -29,7 +29,7 @@ function AppHero() {
           return (
             <div key={item.key} className="container-fluid">
               <div className="content">
-                  <img src="/singapore.png" height="50px" width="150px"/>
+                  <img src="/singapore.png" alt="singapore banner" height="50px" width="150px"/>
                 <h1>{item.title}</h1>
                 <h1>{item.content}</h1>
                 <div className="btnHolder">
